@@ -14,34 +14,58 @@
         </header>
         <main class="signup-body">
           <form action="#">
-
             <div>
-              <label for="name">First Name</label>
-              <input type="text" placeholder="enter username" id="name" required pattern="" />
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                placeholder="enter username"
+                id="name"
+                required
+                pattern=""
+              />
+              <i class="fa-solid"></i>
               <span id="nameError"></span>
             </div>
-            
+
             <div>
               <label for="email">Email</label>
-              <input type="email" placeholder="xyz@gmail.com" id="email" required/>
+              <input
+                type="email"
+                placeholder="xyz@gmail.com"
+                id="email"
+                required
+              />
+              <i class="fa-solid"></i>
+              <span id="emailError"></span>
             </div>
 
             <div>
               <label for="password">Password</label>
-              <input type="password" placeholder="at least 8 characters" id="password" required />
+              <input
+                type="password"
+                placeholder="at least 8 characters"
+                id="password"
+                required
+              />
+              <i class="fa-solid"></i>
+              <span id="passwordError"></span>
             </div>
 
             <div>
-                <input type="submit" value="Create Account" id="submitBtn">
+              <input type="submit" value="Create Account" class="submitBtn" />
             </div>
           </form>
         </main>
         <footer class="signup-footer">
-            <p>Already have an account? <a href="">Login</a></p>
+          <p>Already have an account? <a href="">Login</a></p>
         </footer>
       </div>
     </div>
 
     <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/be3211e6e1.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

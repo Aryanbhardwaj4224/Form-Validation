@@ -29,6 +29,19 @@
 }
 .signup-body div{
     margin-top: 20px;
+    position: relative;
+}
+.signup-body div i{
+    position: absolute;
+    top: 34px;
+    right: 16px;
+    color: red;
+    font-size: 22px;
+}
+.signup-body div span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #90ee90;
 }
 .signup-body div label{
     font-size: 18px;
@@ -67,9 +80,4 @@
 .signup-footer p a:hover{
      text-decoration: underline;
      color: rgb(37, 37, 251);
-}
-.signup-body div span{
-    font-size: 18px;
-    font-weight: 600;
-    color: #90ee90;
 }
